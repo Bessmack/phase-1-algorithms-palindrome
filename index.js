@@ -1,6 +1,10 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const reversed = word.split('').reverse().join('');
+  console.log(word === reversed)
+  return word === reversed;
 }
+isPalindrome('madam')
 
 /* 
   Add your pseudocode here
